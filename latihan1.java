@@ -4,11 +4,17 @@ public class latihan1 {
         String bilTerbesar = "Bilangan terbesar: ";
 
         if (bil1 > bil2) {
-            System.out.print(bilTerbesar+bil1);
+            if (bil1 > bil3) {
+                System.out.print(bilTerbesar+bil1);
+            } else {
+                System.out.print(bilTerbesar+bil3);
+            }
         } else if (bil2 > bil3) {
-            System.out.print(bilTerbesar+bil2);
-        } else if (bil3 > bil1) {
-            System.out.print(bilTerbesar+bil3);
+            if (bil2 > bil1) {
+                System.out.print(bilTerbesar+bil2);
+            } else {
+                System.out.print(bilTerbesar+bil3);
+            }
         }
     }
 }
