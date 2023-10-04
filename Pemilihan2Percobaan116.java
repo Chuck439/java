@@ -12,9 +12,14 @@ public class Pemilihan2Percobaan116 {
 
         // Process
         if ((tahun % 4) == 0) {
-            if ((tahun % 100) != 0 || (tahun % 400) == 0) {
+            if ((tahun % 100) != 0) {
                 System.out.println("Tahun kabisat");
-            }
+            } 
+                if ((tahun % 400) == 0) {
+                    System.out.println("Tahun kabisat");
+                } else {
+                    System.out.println("Bukan tahun kabisat");
+                }
         } else {
             System.out.println("Bukan tahun kabisat");
         }
