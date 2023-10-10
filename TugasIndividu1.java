@@ -1,8 +1,8 @@
-package individu1;
+package modul1;
 
 import java.util.Scanner;
 
-public class TugasIndividuModul1 {
+public class TugasIndividu1 {
     public static void main(String[] args) {
         Scanner input16 = new Scanner(System.in);
 
