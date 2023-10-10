@@ -22,12 +22,24 @@ public class TugasIndividuModul1 {
         if (totalSudut == 180) {
             if ((sudut1 == 90) || (sudut2 == 90) || (sudut3 == 90)) {
                 System.out.println("Ini adalah sudut siku-siku");
+                System.out.println("Ini adalah segitiga siku-siku");
             } else if ((sudut1 == sudut2) && (sudut1 == sudut3)) {
                 System.out.println("Ini adalah sudut sama sisi");
+                System.out.println("Ini adalah segitiga sama sisi");
             } else if ((sudut1 > 90) || (sudut2 > 90) || (sudut1 > 90)) {
                 System.out.println("Ini adalah sudut tumpul");
+                if ((sudut1 == sudut2) || (sudut1 == sudut3) || (sudut2 == sudut3)) {
+                    System.out.println("Ini adalah segitiga sama kaki");
+                } else {
+                    System.out.println("Ini adalah segitiga sembarang");
+                }
             } else if ((sudut1 < 90) && (sudut2 < 90) && (sudut3 < 90)) {
                 System.out.println("Ini adalah sudut lancip");
+                if ((sudut1 == sudut2) || (sudut1 == sudut3) || (sudut2 == sudut3)) {
+                    System.out.println("Ini adalah segitiga sama kaki");
+                } else {
+                    System.out.println("Ini adalah segitiga sembarang");
+                }
             }
         } else {
             System.out.println("Sudut tidak valid");
