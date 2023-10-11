@@ -7,7 +7,7 @@ public class ForKelipatan16 {
         Scanner scan = new Scanner(System.in);
         
         // Var
-        int kelipatan, jumlah = 0, counter = 0;
+        int kelipatan, total = 0, counter = 0;
 
         // Input
         System.out.print("Masukkan bilangan kelipatan (1-9): ");
@@ -23,6 +23,6 @@ public class ForKelipatan16 {
 
         // Output
         System.out.printf("Banyaknya bilangan %d dari 1 sampai 50 adalah %d\n", kelipatan, counter);
-        System.out.printf("Total bilangan kelipatan %d dari 1 sampai 50 adalah %d\n", kelipatan, total)
+        System.out.printf("Total bilangan kelipatan %d dari 1 sampai 50 adalah %d\n", kelipatan, total);
     }
 }
