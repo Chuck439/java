@@ -34,6 +34,8 @@ public class Firmansyah2 {
             System.out.println("Anda diterima di Jurusan Bisnis Manajemen");
         } else if (((nilaiBahasaInggris > 60) && (nilaiPotensiAkademik > 60) && (nilaiPotensiAkademik > 60)) || ((nilaiPotensiAkademik == 100) && (nilaiBahasaInggris == 100))) {
             System.out.println("Anda diterima di Jurusan Teknik Informatika");
+        } else {
+            System.out.println("Anda tidak diterima di jurusan manapun");
         }
     }
 }

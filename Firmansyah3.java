@@ -10,7 +10,7 @@ public class Firmansyah3 {
         double bobotWawancara = 0.2;
 
         // Input
-        System.out.println("Masukkan Jumlah Mahasiswa: ");
+        System.out.print("Masukkan Jumlah Mahasiswa: ");
         double jmlMhs = input.nextDouble();
 
         for (int i=0; i<jmlMhs; i++) {
@@ -38,6 +38,8 @@ public class Firmansyah3 {
                 System.out.println("Anda diterima di Jurusan Bisnis Manajemen");
             } else if (((nilaiBahasaInggris > 60) && (nilaiPotensiAkademik > 60) && (nilaiPotensiAkademik > 60)) || ((nilaiPotensiAkademik == 100) && (nilaiBahasaInggris == 100))) {
                 System.out.println("Anda diterima di Jurusan Teknik Informatika");
+            } else {
+                System.out.println("Anda tidak diterima di jurusan manapun");
             }
         }
         input.close();
