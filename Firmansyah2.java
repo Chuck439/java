@@ -37,5 +37,6 @@ public class Firmansyah2 {
         } else {
             System.out.println("Anda tidak diterima di jurusan manapun");
         }
+        input.close();
     }
 }
