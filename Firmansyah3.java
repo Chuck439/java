@@ -34,7 +34,7 @@ public class Firmansyah3 {
                 System.out.println("Anda diterima di Jurusan Sistem Informasi");
             } else if (((nilaiBahasaInggris > 70) && (nilaiPotensiAkademik > 70) && (nilaiWawancara > 70)) || ((nilaiBahasaInggris == 100) || (nilaiPotensiAkademik == 100) || (nilaiWawancara == 100))) {
                 System.out.println("Anda diterima di Jurusan Ilmu Komputer");
-            } else if ((nilaiAkhir == 75) && (nilaiBahasaInggris > 50)) {
+            } else if ((nilaiRata == 75) && (nilaiBahasaInggris > 50)) {
                 System.out.println("Anda diterima di Jurusan Bisnis Manajemen");
             } else if (((nilaiBahasaInggris > 60) && (nilaiPotensiAkademik > 60) && (nilaiPotensiAkademik > 60)) || ((nilaiPotensiAkademik == 100) && (nilaiBahasaInggris == 100))) {
                 System.out.println("Anda diterima di Jurusan Teknik Informatika");
