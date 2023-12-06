@@ -14,7 +14,7 @@ public class Percobaan2_16 {
         }
     }
     }
-
+    
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.print("Bilangan yang dihitung: ");
@@ -22,6 +22,7 @@ public class Percobaan2_16 {
         System.out.print("Pangkat: ");
         int pangkat = sc.nextInt();
 
+        System.out.print("HitungPangkat(" + bilangan + "," + pangkat + ") " + "dicetak " );
         System.out.println(hitungPangkat(bilangan, pangkat));
         sc.close();
     }
