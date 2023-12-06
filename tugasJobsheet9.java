@@ -37,5 +37,7 @@ public class tugasJobsheet9 {
         System.out.println("Nilai terendah = " + nilaiterendah );
         System.out.println("Rata-rata nilai tinggi = " + ratanilaitinggi);
         System.out.println("Rata-rata nilai rendah = " + ratanilarendah);
+
+        input.close();
     }
 }
