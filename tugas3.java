@@ -23,5 +23,6 @@ public class tugas3 {
         } else {
             System.out.println(bilangan + " bukan bilangan prima.");
         }
+        sc.close();
     }
 }
