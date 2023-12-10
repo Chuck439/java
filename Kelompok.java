@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class cobacoba {
+public class Kelompok {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         int pilihan;
