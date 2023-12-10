@@ -83,8 +83,6 @@ public class Kelompok {
                 System.out.println("Nomor barang tidak valid.");
         }
 
-        input.close();
-
         if (harga > 0) {
             System.out.println("\n################################");
             System.out.println("# Bukti Peminjaman PlayStation #");
